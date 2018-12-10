@@ -7,7 +7,7 @@
     },
     "displayName": "Error Gutters",
     "description": "Show error gutters to the right from line numbers",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "IgorSbitnev",
     "icon": "img/icon.png",
     "engines": {

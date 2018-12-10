@@ -32,6 +32,7 @@ const getIssues = diagnostics => diagnostics
 
 const checkFile = () => {
   const editor = vscode.window.activeTextEditor;
+  if (!editor) return;
   const [, diagnostics] = vscode
     .languages
     .getDiagnostics()
